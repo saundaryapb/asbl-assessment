@@ -1,3 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+	/* Custom brand colors — generates bg-primary, text-primary, border-primary, etc. */
+	--color-primary: #002F56;
+	--color-secondary: #00A1FF;
+
+	/* Custom font families — generates font-sans, font-heading, font-serif-acc utilities */
+	--font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+	--font-heading: 'Poppins', 'Inter', system-ui, sans-serif;
+	--font-serif-acc: 'Merriweather', Georgia, 'Times New Roman', serif;
+}
+
+body {
+	font-family: var(--font-sans);
+}
