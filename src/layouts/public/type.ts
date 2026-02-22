@@ -22,3 +22,7 @@ export interface MenuListProps {
    textClassName?: string;
    divider?: boolean;
 }
+
+export type SocialPlatform = "instagram" | "facebook" | "linkedin" | "youtube" | "twitter";
+
+export interface FooterProps {}

@@ -3,6 +3,7 @@ import { LayoutComponent } from "../components";
 import { useState, useCallback } from "react";
 
 const PublicLayoutContainer: React.FC = () => {
+    
    const [drawerOpen, setDrawerOpen] = useState(false);
    const handleDrawerChange = useCallback((open: boolean) => {
       setDrawerOpen(open);
