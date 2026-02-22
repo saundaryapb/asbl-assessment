@@ -1,3 +1,6 @@
+export const HANDOVER_KEYWORD = "handover";
+export const COMPLETED_KEYWORD = "completed";
+
 import {
    BROADWAY_LARGE_IMG,
    LAKESIDE_LARGE_IMG,

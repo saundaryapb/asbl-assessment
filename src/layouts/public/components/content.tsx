@@ -1,14 +1,16 @@
+import React from "react";
 import { Projects } from "../../../screens";
 import type { ContentProps } from "../type";
 
-import { Card } from "antd";
-
 const Content: React.FC<ContentProps> = () => {
    return (
-      <Card className="bg-white shadow-md rounded-lg p-6 mx-auto mt-6" bordered={false}>
-        <Projects />
-      </Card>
+      <div
+        className="mx-4 my-4 sm:mx-8 sm:my-6 rounded-3xl bg-slate-50/50"
+      >
+         <Projects />
+      </div>
    );
 };
 
 export default Content;
+
